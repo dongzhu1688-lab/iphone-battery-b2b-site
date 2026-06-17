@@ -633,15 +633,36 @@ h2 {
   padding: 26px;
 }
 
-.contact-card ul {
-  padding: 0;
-  margin: 24px 0 0;
-  list-style: none;
+.contact-list {
+  display: grid;
+  gap: 12px;
+  margin-top: 24px;
 }
 
-.contact-card li {
-  padding: 11px 0;
-  border-top: 1px solid var(--line);
+.contact-list article {
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #f8fbfd;
+}
+
+.contact-list h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.contact-list p {
+  margin: 4px 0 12px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.contact-list a {
+  display: block;
+  margin-top: 8px;
+  color: var(--accent-dark);
+  font-weight: 800;
 }
 
 .whatsapp-panel h3 {
