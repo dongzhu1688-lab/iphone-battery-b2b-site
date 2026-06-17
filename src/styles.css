@@ -94,16 +94,13 @@ textarea {
   display: inline-flex;
   align-items: center;
   min-height: 38px;
-  padding: 0 12px;
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
+  padding: 0 4px;
   color: #263747;
   font-size: 14px;
   font-weight: 800;
 }
 
 .home-link:hover {
-  border-color: var(--accent);
   color: var(--accent-dark);
 }
 
@@ -795,6 +792,10 @@ h2 {
 .blog-list,
 .article-page {
   padding: 64px 48px;
+}
+
+.home-blog {
+  background: #fff;
 }
 
 .blog-hero {
