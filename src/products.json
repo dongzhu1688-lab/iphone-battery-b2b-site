@@ -9,7 +9,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-7g.svg"
   },
   {
     "id": "original-cell-7p",
@@ -21,7 +21,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-7p.svg"
   },
   {
     "id": "original-cell-8g",
@@ -33,7 +33,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-8g.svg"
   },
   {
     "id": "original-cell-8p",
@@ -45,7 +45,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-8p.svg"
   },
   {
     "id": "original-cell-x",
@@ -57,7 +57,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-x.svg"
   },
   {
     "id": "original-cell-xr",
@@ -69,7 +69,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-xr.svg"
   },
   {
     "id": "original-cell-xs",
@@ -81,7 +81,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-xs.svg"
   },
   {
     "id": "original-cell-xs-max",
@@ -93,7 +93,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-xs-max.svg"
   },
   {
     "id": "original-cell-se2020",
@@ -105,7 +105,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-se2020.svg"
   },
   {
     "id": "original-cell-se2022",
@@ -117,7 +117,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-se2022.svg"
   },
   {
     "id": "original-cell-11",
@@ -129,7 +129,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-11.svg"
   },
   {
     "id": "original-cell-11pro",
@@ -141,7 +141,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-11pro.svg"
   },
   {
     "id": "original-cell-11promax",
@@ -153,7 +153,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-11promax.svg"
   },
   {
     "id": "original-cell-12-12-pro",
@@ -165,7 +165,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-12-12-pro.svg"
   },
   {
     "id": "original-cell-12mini",
@@ -177,7 +177,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-12mini.svg"
   },
   {
     "id": "original-cell-12promax",
@@ -189,7 +189,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-12promax.svg"
   },
   {
     "id": "original-cell-13",
@@ -201,7 +201,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-13.svg"
   },
   {
     "id": "original-cell-13mini",
@@ -213,7 +213,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-13mini.svg"
   },
   {
     "id": "original-cell-13pro",
@@ -225,7 +225,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-13pro.svg"
   },
   {
     "id": "original-cell-13promax",
@@ -237,7 +237,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-13promax.svg"
   },
   {
     "id": "original-cell-14",
@@ -249,7 +249,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-14.svg"
   },
   {
     "id": "original-cell-14plus",
@@ -261,7 +261,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-14plus.svg"
   },
   {
     "id": "original-cell-14pro",
@@ -273,7 +273,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-14pro.svg"
   },
   {
     "id": "original-cell-14promax",
@@ -285,7 +285,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-14promax.svg"
   },
   {
     "id": "original-cell-15",
@@ -297,7 +297,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-15.svg"
   },
   {
     "id": "original-cell-15plus",
@@ -309,7 +309,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-15plus.svg"
   },
   {
     "id": "original-cell-15pro",
@@ -321,7 +321,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-15pro.svg"
   },
   {
     "id": "original-cell-15promax",
@@ -333,7 +333,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/original-cell-15promax.svg"
   },
   {
     "id": "diagnostic-12-12-pro",
@@ -345,7 +345,7 @@
     "badge": "Diagnostic Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/diagnostic-12-12-pro.svg"
   },
   {
     "id": "diagnostic-12mini",
@@ -357,7 +357,7 @@
     "badge": "Diagnostic Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/diagnostic-12mini.svg"
   },
   {
     "id": "diagnostic-12promax",
@@ -369,7 +369,7 @@
     "badge": "Diagnostic Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/diagnostic-12promax.svg"
   },
   {
     "id": "diagnostic-13",
@@ -381,7 +381,7 @@
     "badge": "Diagnostic Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/diagnostic-13.svg"
   },
   {
     "id": "diagnostic-13mini",
@@ -393,7 +393,7 @@
     "badge": "Diagnostic Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/diagnostic-13mini.svg"
   },
   {
     "id": "diagnostic-13pro",
@@ -405,7 +405,7 @@
     "badge": "Diagnostic Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/diagnostic-13pro.svg"
   },
   {
     "id": "diagnostic-13promax",
@@ -417,7 +417,7 @@
     "badge": "Diagnostic Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/diagnostic-13promax.svg"
   },
   {
     "id": "diagnostic-14",
@@ -429,7 +429,7 @@
     "badge": "Diagnostic Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/diagnostic-14.svg"
   },
   {
     "id": "diagnostic-14plus",
@@ -441,7 +441,7 @@
     "badge": "Diagnostic Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/diagnostic-14plus.svg"
   },
   {
     "id": "diagnostic-14pro",
@@ -453,7 +453,7 @@
     "badge": "Diagnostic Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/diagnostic-14pro.svg"
   },
   {
     "id": "diagnostic-14promax",
@@ -465,7 +465,7 @@
     "badge": "Diagnostic Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/diagnostic-14promax.svg"
   },
   {
     "id": "diagnostic-15",
@@ -477,7 +477,7 @@
     "badge": "Diagnostic Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/diagnostic-15.svg"
   },
   {
     "id": "diagnostic-15plus",
@@ -489,7 +489,7 @@
     "badge": "Diagnostic Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/diagnostic-15plus.svg"
   },
   {
     "id": "diagnostic-15pro",
@@ -501,7 +501,7 @@
     "badge": "Diagnostic Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/diagnostic-15pro.svg"
   },
   {
     "id": "diagnostic-15promax",
@@ -513,7 +513,7 @@
     "badge": "Diagnostic Original Cell",
     "moq": 20,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/diagnostic-15promax.svg"
   },
   {
     "id": "pulled-original-16",
@@ -525,7 +525,7 @@
     "badge": "Pulled Original",
     "moq": 10,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/pulled-original-16.svg"
   },
   {
     "id": "pulled-original-16plus",
@@ -537,7 +537,7 @@
     "badge": "Pulled Original",
     "moq": 10,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/pulled-original-16plus.svg"
   },
   {
     "id": "pulled-original-16pro",
@@ -549,7 +549,7 @@
     "badge": "Pulled Original",
     "moq": 10,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/pulled-original-16pro.svg"
   },
   {
     "id": "pulled-original-16promax",
@@ -561,6 +561,6 @@
     "badge": "Pulled Original",
     "moq": 10,
     "leadTime": "3-7 days",
-    "image": "assets/product-batteries.png"
+    "image": "assets/products/pulled-original-16promax.svg"
   }
 ]
