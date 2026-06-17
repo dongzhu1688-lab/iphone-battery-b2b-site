@@ -8,7 +8,7 @@
     "price": 4.23,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-7g.svg"
   },
   {
@@ -20,7 +20,7 @@
     "price": 4.74,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-7p.svg"
   },
   {
@@ -32,7 +32,7 @@
     "price": 4.74,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-8g.svg"
   },
   {
@@ -44,7 +44,7 @@
     "price": 5.58,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-8p.svg"
   },
   {
@@ -56,7 +56,7 @@
     "price": 7.11,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-x.svg"
   },
   {
@@ -68,7 +68,7 @@
     "price": 7.28,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-xr.svg"
   },
   {
@@ -80,7 +80,7 @@
     "price": 8.12,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-xs.svg"
   },
   {
@@ -92,7 +92,7 @@
     "price": 8.12,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-xs-max.svg"
   },
   {
@@ -104,7 +104,7 @@
     "price": 4.74,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-se2020.svg"
   },
   {
@@ -116,7 +116,7 @@
     "price": 5.42,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-se2022.svg"
   },
   {
@@ -128,7 +128,7 @@
     "price": 8.12,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-11.svg"
   },
   {
@@ -140,7 +140,7 @@
     "price": 8.97,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-11pro.svg"
   },
   {
@@ -152,7 +152,7 @@
     "price": 8.97,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-11promax.svg"
   },
   {
@@ -164,7 +164,7 @@
     "price": 8.12,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-12-12-pro.svg"
   },
   {
@@ -176,7 +176,7 @@
     "price": 8.12,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-12mini.svg"
   },
   {
@@ -188,7 +188,7 @@
     "price": 9.31,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-12promax.svg"
   },
   {
@@ -200,7 +200,7 @@
     "price": 8.97,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-13.svg"
   },
   {
@@ -212,7 +212,7 @@
     "price": 8.97,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-13mini.svg"
   },
   {
@@ -224,7 +224,7 @@
     "price": 9.82,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-13pro.svg"
   },
   {
@@ -236,7 +236,7 @@
     "price": 10.15,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-13promax.svg"
   },
   {
@@ -248,7 +248,7 @@
     "price": 9.82,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-14.svg"
   },
   {
@@ -260,7 +260,7 @@
     "price": 10.15,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-14plus.svg"
   },
   {
@@ -272,7 +272,7 @@
     "price": 10.66,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-14pro.svg"
   },
   {
@@ -284,7 +284,7 @@
     "price": 11.0,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-14promax.svg"
   },
   {
@@ -296,7 +296,7 @@
     "price": 11.0,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-15.svg"
   },
   {
@@ -308,7 +308,7 @@
     "price": 11.0,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-15plus.svg"
   },
   {
@@ -320,7 +320,7 @@
     "price": 11.51,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-15pro.svg"
   },
   {
@@ -332,7 +332,7 @@
     "price": 11.85,
     "badge": "Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/original-cell-15promax.svg"
   },
   {
@@ -344,7 +344,7 @@
     "price": 9.82,
     "badge": "Diagnostic Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/diagnostic-12-12-pro.svg"
   },
   {
@@ -356,7 +356,7 @@
     "price": 9.31,
     "badge": "Diagnostic Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/diagnostic-12mini.svg"
   },
   {
@@ -368,7 +368,7 @@
     "price": 10.66,
     "badge": "Diagnostic Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/diagnostic-12promax.svg"
   },
   {
@@ -380,7 +380,7 @@
     "price": 10.49,
     "badge": "Diagnostic Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/diagnostic-13.svg"
   },
   {
@@ -392,7 +392,7 @@
     "price": 10.49,
     "badge": "Diagnostic Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/diagnostic-13mini.svg"
   },
   {
@@ -404,7 +404,7 @@
     "price": 11.0,
     "badge": "Diagnostic Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/diagnostic-13pro.svg"
   },
   {
@@ -416,7 +416,7 @@
     "price": 11.85,
     "badge": "Diagnostic Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/diagnostic-13promax.svg"
   },
   {
@@ -428,7 +428,7 @@
     "price": 12.18,
     "badge": "Diagnostic Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/diagnostic-14.svg"
   },
   {
@@ -440,7 +440,7 @@
     "price": 12.18,
     "badge": "Diagnostic Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/diagnostic-14plus.svg"
   },
   {
@@ -452,7 +452,7 @@
     "price": 12.69,
     "badge": "Diagnostic Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/diagnostic-14pro.svg"
   },
   {
@@ -464,7 +464,7 @@
     "price": 13.54,
     "badge": "Diagnostic Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/diagnostic-14promax.svg"
   },
   {
@@ -476,7 +476,7 @@
     "price": 13.54,
     "badge": "Diagnostic Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/diagnostic-15.svg"
   },
   {
@@ -488,7 +488,7 @@
     "price": 14.38,
     "badge": "Diagnostic Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/diagnostic-15plus.svg"
   },
   {
@@ -500,7 +500,7 @@
     "price": 14.38,
     "badge": "Diagnostic Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/diagnostic-15pro.svg"
   },
   {
@@ -512,7 +512,7 @@
     "price": 15.23,
     "badge": "Diagnostic Original Cell",
     "moq": 20,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/diagnostic-15promax.svg"
   },
   {
@@ -524,7 +524,7 @@
     "price": 29.0,
     "badge": "Pulled Original",
     "moq": 10,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/pulled-original-16.svg"
   },
   {
@@ -536,7 +536,7 @@
     "price": 34.0,
     "badge": "Pulled Original",
     "moq": 10,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/pulled-original-16plus.svg"
   },
   {
@@ -548,7 +548,7 @@
     "price": 38.0,
     "badge": "Pulled Original",
     "moq": 10,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/pulled-original-16pro.svg"
   },
   {
@@ -560,7 +560,7 @@
     "price": 38.0,
     "badge": "Pulled Original",
     "moq": 10,
-    "leadTime": "3-7 days",
+    "leadTime": "5-15 days",
     "image": "assets/products/pulled-original-16promax.svg"
   }
 ]

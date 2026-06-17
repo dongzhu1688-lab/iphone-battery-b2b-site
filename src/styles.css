@@ -90,6 +90,18 @@ textarea {
   flex: 1;
 }
 
+.home-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  color: #263747;
+  font-size: 14px;
+  font-weight: 800;
+}
+
 .nav-item {
   position: relative;
 }
@@ -145,6 +157,22 @@ textarea {
   display: flex;
   align-items: center;
   gap: 12px;
+}
+
+.header-search input {
+  width: 190px;
+  height: 40px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 0 12px;
+  background: #fff;
+  color: var(--ink);
+  font-size: 14px;
+}
+
+.header-search input:focus {
+  border-color: var(--accent);
+  outline: 2px solid rgba(0, 167, 199, 0.18);
 }
 
 .ghost-link {
@@ -237,8 +265,8 @@ textarea {
 
 .hero-stats {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  max-width: 620px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  max-width: 760px;
   gap: 12px;
   margin: 38px 0 0;
 }
@@ -282,7 +310,7 @@ textarea {
   bottom: 18px;
   left: 18px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 8px;
 }
 
@@ -572,7 +600,7 @@ h2 {
 
 .trade-points {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 12px;
 }
 
@@ -752,6 +780,10 @@ h2 {
     margin-left: auto;
   }
 
+  .header-search input {
+    width: 160px;
+  }
+
   .menu-button {
     display: grid;
     gap: 5px;
@@ -807,6 +839,12 @@ h2 {
     min-width: auto;
   }
 
+  .home-link {
+    min-height: 34px;
+    padding: 0 8px;
+    font-size: 13px;
+  }
+
   .brand-mark {
     width: 36px;
     height: 36px;
@@ -814,13 +852,18 @@ h2 {
   }
 
   .brand strong {
-    font-size: 15px;
-    line-height: 1;
+    display: none;
   }
 
   .brand small,
   .ghost-link {
     display: none;
+  }
+
+  .header-search input {
+    width: clamp(96px, 28vw, 120px);
+    height: 38px;
+    padding: 0 10px;
   }
 
   .cart-button {

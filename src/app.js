@@ -128,7 +128,7 @@ function renderProducts() {
         <div class="product-topline"><span>${product.badge}</span><span>${product.series}</span></div>
         <h3>${product.model}</h3>
         <p>${product.categoryName}</p>
-        <p>MOQ ${product.moq} pcs · Lead time ${product.leadTime}</p>
+        <p>MOQ ${product.moq} pcs · Lead time ${product.leadTime} · 12 months warranty</p>
         <div class="price-row">
           <span class="price">${money(product.price)}</span>
           <div class="product-actions">
@@ -147,6 +147,14 @@ function setCategory(category, series = "all") {
   updateActiveChips();
   updateSeriesFilters();
   renderProducts();
+}
+
+function setSearch(value, shouldJump = false) {
+  state.search = value;
+  byId("searchInput").value = value;
+  byId("headerSearchInput").value = value;
+  renderProducts();
+  if (shouldJump && value) location.hash = "catalog";
 }
 
 function updateActiveChips() {
@@ -256,9 +264,7 @@ function bindEvents() {
     }
     if (target.dataset.jump) {
       setCategory(target.dataset.jump, target.dataset.series || "all");
-      byId("searchInput").value = target.dataset.model || "";
-      state.search = target.dataset.model || "";
-      renderProducts();
+      setSearch(target.dataset.model || "");
     }
     if (target.dataset.catFilter) setCategory(target.dataset.catFilter);
     if (target.dataset.seriesFilter) {
@@ -282,8 +288,10 @@ function bindEvents() {
   });
 
   byId("searchInput").addEventListener("input", (event) => {
-    state.search = event.target.value;
-    renderProducts();
+    setSearch(event.target.value);
+  });
+  byId("headerSearchInput").addEventListener("input", (event) => {
+    setSearch(event.target.value, true);
   });
   byId("sortSelect").addEventListener("change", (event) => {
     state.sort = event.target.value;
