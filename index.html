@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CellCore Global | iPhone Battery Wholesale</title>
+    <meta
+      name="description"
+      content="Global B2B wholesale catalog for iPhone battery original cell, diagnostic original cell, and pulled original batteries."
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" defer></script>
+    <script type="module" src="src/app.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="CellCore Global home">
+        <span class="brand-mark">CG</span>
+        <span>
+          <strong>CellCore Global</strong>
+          <small>iPhone battery wholesale</small>
+        </span>
+      </a>
+      <nav class="desktop-nav" id="desktopNav" aria-label="Product categories"></nav>
+      <div class="header-actions">
+        <a class="ghost-link" href="#inquiry">Inquiry</a>
+        <button class="cart-button" id="cartOpen" type="button">
+          Cart <span id="cartCount">0</span>
+        </button>
+      </div>
+      <button class="menu-button" id="menuToggle" type="button" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero-copy">
+          <h1>Global supply of original-cell iPhone batteries for repair businesses.</h1>
+          <p>
+            Browse exact models, check USD wholesale pricing, add SKUs to cart, and send Tom Zhu a
+            fast inquiry for bulk orders, mixed cartons, and PayPal checkout.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#catalog">Browse catalog</a>
+            <a class="secondary-button" href="#inquiry">Request quote</a>
+          </div>
+          <dl class="hero-stats">
+            <div><dt>47</dt><dd>priced SKUs</dd></div>
+            <div><dt>3-7d</dt><dd>lead time</dd></div>
+            <div><dt>PayPal</dt><dd>checkout ready</dd></div>
+          </dl>
+        </div>
+        <div class="hero-media">
+          <img src="assets/product-batteries.png" alt="Wholesale phone battery cells" />
+          <div class="quality-strip">
+            <span>QC checked</span>
+            <span>Export packing</span>
+            <span>Model matched</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="category-band" id="categories">
+        <div class="section-heading">
+          <h2>Product categories</h2>
+          <p>Use the top menu or the catalog filters to jump from series to specific model pricing.</p>
+        </div>
+        <div class="category-grid" id="categoryGrid"></div>
+      </section>
+
+      <section class="catalog" id="catalog">
+        <aside class="filters">
+          <h2>Catalog</h2>
+          <label>
+            Search model
+            <input id="searchInput" type="search" placeholder="15ProMax, 12 mini..." />
+          </label>
+          <div class="filter-group">
+            <span>Category</span>
+            <div id="categoryFilters"></div>
+          </div>
+          <div class="filter-group">
+            <span>Series</span>
+            <div id="seriesFilters"></div>
+          </div>
+        </aside>
+        <div class="catalog-body">
+          <div class="catalog-toolbar">
+            <div>
+              <h2 id="catalogTitle">All products</h2>
+              <p id="catalogMeta">Prices from attached Excel files, USD per unit.</p>
+            </div>
+            <select id="sortSelect" aria-label="Sort products">
+              <option value="series">Sort by series</option>
+              <option value="price-asc">Price low to high</option>
+              <option value="price-desc">Price high to low</option>
+            </select>
+          </div>
+          <div class="product-grid" id="productGrid"></div>
+        </div>
+      </section>
+
+      <section class="trade-section">
+        <div>
+          <h2>Built for global wholesale buyers</h2>
+          <p>
+            Clear model mapping, fast mixed-SKU quoting, PayPal support, and direct contact with Tom
+            Zhu for sample orders, cartons, and recurring repair-shop replenishment.
+          </p>
+        </div>
+        <div class="trade-points">
+          <article><strong>Original cell options</strong><span>7 series through 15 series</span></article>
+          <article><strong>Diagnostic variants</strong><span>12 series through 15 series</span></article>
+          <article><strong>Pulled original stock</strong><span>16 series availability</span></article>
+        </div>
+      </section>
+
+      <section class="inquiry" id="inquiry">
+        <div class="contact-card">
+          <h2>Contact Tom Zhu</h2>
+          <p>Send your cart or inquiry details for a fast B2B quotation.</p>
+          <ul>
+            <li><strong>Contact:</strong> Tom Zhu</li>
+            <li><strong>Role:</strong> Global Sales</li>
+            <li><strong>Email:</strong> <a href="mailto:contact@dakolas.com">contact@dakolas.com</a></li>
+            <li><strong>WhatsApp:</strong> <a href="https://wa.me/8613558057005">+86 13558057005</a></li>
+          </ul>
+        </div>
+        <form class="inquiry-form" id="inquiryForm">
+          <label>Name<input required name="name" autocomplete="name" /></label>
+          <label>Email<input required type="email" name="email" autocomplete="email" /></label>
+          <label>Company<input name="company" autocomplete="organization" /></label>
+          <label>Message<textarea name="message" rows="5">Please quote the selected iPhone battery models.</textarea></label>
+          <button class="primary-button" type="submit">Send inquiry</button>
+          <p id="formStatus" role="status"></p>
+        </form>
+      </section>
+    </main>
+
+    <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+      <div class="cart-panel">
+        <div class="cart-head">
+          <h2>Your order</h2>
+          <button id="cartClose" type="button" aria-label="Close cart">×</button>
+        </div>
+        <div id="cartItems" class="cart-items"></div>
+        <div class="cart-summary">
+          <div><span>Items</span><strong id="cartUnits">0</strong></div>
+          <div><span>Total</span><strong id="cartTotal">$0.00</strong></div>
+        </div>
+        <div id="paypalButtons"></div>
+        <button class="secondary-button full" id="cartToInquiry" type="button">Send cart as inquiry</button>
+      </div>
+    </aside>
+  </body>
+</html>
