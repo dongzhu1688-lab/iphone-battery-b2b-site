@@ -23,7 +23,7 @@
       </a>
       <nav class="desktop-nav" id="desktopNav" aria-label="Product categories"></nav>
       <div class="header-actions">
-        <a class="ghost-link" href="#inquiry">Inquiry</a>
+        <a class="ghost-link" href="https://wa.me/8613558057005" target="_blank" rel="noopener">WhatsApp</a>
         <button class="cart-button" id="cartOpen" type="button">
           Cart <span id="cartCount">0</span>
         </button>
@@ -39,16 +39,16 @@
           <h1>Global supply of original-cell iPhone batteries for repair businesses.</h1>
           <p>
             Browse exact models, check USD wholesale pricing, add SKUs to cart, and send Tom Zhu a
-            fast inquiry for bulk orders, mixed cartons, and PayPal checkout.
+            WhatsApp message for bulk orders, mixed cartons, PayPal, and Alipay checkout.
           </p>
           <div class="hero-actions">
             <a class="primary-button" href="#catalog">Browse catalog</a>
-            <a class="secondary-button" href="#inquiry">Request quote</a>
+            <a class="secondary-button" href="https://wa.me/8613558057005" target="_blank" rel="noopener">WhatsApp Tom</a>
           </div>
           <dl class="hero-stats">
             <div><dt>47</dt><dd>priced SKUs</dd></div>
             <div><dt>3-7d</dt><dd>lead time</dd></div>
-            <div><dt>PayPal</dt><dd>checkout ready</dd></div>
+            <div><dt>PayPal + Alipay</dt><dd>payment options</dd></div>
           </dl>
         </div>
         <div class="hero-media">
@@ -105,8 +105,9 @@
         <div>
           <h2>Built for global wholesale buyers</h2>
           <p>
-            Clear model mapping, fast mixed-SKU quoting, PayPal support, and direct contact with Tom
-            Zhu for sample orders, cartons, and recurring repair-shop replenishment.
+            Clear model mapping, fast mixed-SKU ordering, PayPal and Alipay support, and direct
+            WhatsApp contact with Tom Zhu for sample orders, cartons, and recurring repair-shop
+            replenishment.
           </p>
         </div>
         <div class="trade-points">
@@ -116,25 +117,21 @@
         </div>
       </section>
 
-      <section class="inquiry" id="inquiry">
+      <section class="contact-section" id="contact">
         <div class="contact-card">
-          <h2>Contact Tom Zhu</h2>
-          <p>Send your cart or inquiry details for a fast B2B quotation.</p>
+          <h2>Order on WhatsApp</h2>
+          <p>Send product models or your cart directly to Tom Zhu. Customers can request PayPal or Alipay payment inside WhatsApp.</p>
           <ul>
             <li><strong>Contact:</strong> Tom Zhu</li>
             <li><strong>Role:</strong> Global Sales</li>
-            <li><strong>Email:</strong> <a href="mailto:contact@dakolas.com">contact@dakolas.com</a></li>
             <li><strong>WhatsApp:</strong> <a href="https://wa.me/8613558057005">+86 13558057005</a></li>
           </ul>
         </div>
-        <form class="inquiry-form" id="inquiryForm">
-          <label>Name<input required name="name" autocomplete="name" /></label>
-          <label>Email<input required type="email" name="email" autocomplete="email" /></label>
-          <label>Company<input name="company" autocomplete="organization" /></label>
-          <label>Message<textarea name="message" rows="5">Please quote the selected iPhone battery models.</textarea></label>
-          <button class="primary-button" type="submit">Send inquiry</button>
-          <p id="formStatus" role="status"></p>
-        </form>
+        <div class="whatsapp-panel">
+          <h3>Fast checkout workflow</h3>
+          <p>Add models to cart, choose WhatsApp or Alipay, and the order message opens automatically with SKU, quantity, and total amount.</p>
+          <a class="whatsapp-button" href="https://wa.me/8613558057005" target="_blank" rel="noopener">Open WhatsApp</a>
+        </div>
       </section>
     </main>
 
@@ -150,7 +147,8 @@
           <div><span>Total</span><strong id="cartTotal">$0.00</strong></div>
         </div>
         <div id="paypalButtons"></div>
-        <button class="secondary-button full" id="cartToInquiry" type="button">Send cart as inquiry</button>
+        <button class="whatsapp-button full" id="cartToWhatsApp" type="button">WhatsApp order</button>
+        <button class="alipay-button full" id="alipayCheckout" type="button">Pay with Alipay</button>
       </div>
     </aside>
   </body>

@@ -20,8 +20,11 @@ const state = {
 };
 
 const money = (value) => `$${value.toFixed(2)}`;
+const WHATSAPP_NUMBER = "8613558057005";
 
 const byId = (id) => document.getElementById(id);
+const whatsappUrl = (message) => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+const openWhatsApp = (message) => window.open(whatsappUrl(message), "_blank", "noopener");
 
 async function boot() {
   state.products = await fetch("src/products.json").then((response) => response.json());
@@ -128,7 +131,10 @@ function renderProducts() {
         <p>MOQ ${product.moq} pcs · Lead time ${product.leadTime}</p>
         <div class="price-row">
           <span class="price">${money(product.price)}</span>
-          <button class="small-button" type="button" data-add="${product.id}">Add to cart</button>
+          <div class="product-actions">
+            <button class="small-button" type="button" data-add="${product.id}">Add to cart</button>
+            <button class="whatsapp-mini" type="button" data-whatsapp-product="${product.id}">WhatsApp</button>
+          </div>
         </div>
       </div>
     </article>
@@ -210,6 +216,36 @@ function cartText() {
   return entries.map(({ product, qty }) => `${product.model} | ${product.categoryName} | ${qty} pcs | ${money(product.price)}/unit`).join("\n");
 }
 
+function cartTotal() {
+  return [...state.cart.values()].reduce((sum, entry) => sum + entry.qty * entry.product.price, 0);
+}
+
+function productWhatsAppMessage(product) {
+  return [
+    "Hello Tom, I am interested in this iPhone battery:",
+    `Model: ${product.model}`,
+    `Category: ${product.categoryName}`,
+    `Series: ${product.series}`,
+    `Unit price: ${money(product.price)}`,
+    `MOQ: ${product.moq} pcs`,
+    "",
+    "Please confirm stock, shipping cost, and payment method.",
+  ].join("\n");
+}
+
+function cartWhatsAppMessage(paymentMethod = "WhatsApp order") {
+  return [
+    `Hello Tom, I want to place an iPhone battery order via ${paymentMethod}.`,
+    "",
+    "Order items:",
+    cartText(),
+    "",
+    `Total: ${money(cartTotal())}`,
+    "",
+    "Please confirm stock, shipping cost, and the final payment details.",
+  ].join("\n");
+}
+
 function bindEvents() {
   document.addEventListener("click", (event) => {
     const target = event.target.closest("button, a");
@@ -231,6 +267,10 @@ function bindEvents() {
       renderProducts();
     }
     if (target.dataset.add) addToCart(target.dataset.add);
+    if (target.dataset.whatsappProduct) {
+      const product = state.products.find((item) => item.id === target.dataset.whatsappProduct);
+      if (product) openWhatsApp(productWhatsAppMessage(product));
+    }
     if (target.dataset.inc || target.dataset.dec) {
       const id = target.dataset.inc || target.dataset.dec;
       const entry = state.cart.get(id);
@@ -258,27 +298,11 @@ function bindEvents() {
     byId("cartDrawer").classList.remove("open");
     byId("cartDrawer").setAttribute("aria-hidden", "true");
   });
-  byId("cartToInquiry").addEventListener("click", () => {
-    document.querySelector("[name='message']").value = `Please quote these items:\n${cartText()}`;
-    byId("cartDrawer").classList.remove("open");
-    location.hash = "inquiry";
+  byId("cartToWhatsApp").addEventListener("click", () => {
+    openWhatsApp(cartWhatsAppMessage());
   });
-  byId("inquiryForm").addEventListener("submit", (event) => {
-    event.preventDefault();
-    const data = new FormData(event.currentTarget);
-    const body = [
-      `Name: ${data.get("name")}`,
-      `Email: ${data.get("email")}`,
-      `Company: ${data.get("company")}`,
-      "",
-      data.get("message"),
-      "",
-      "Cart:",
-      cartText(),
-    ].join("\n");
-    const mailto = `mailto:contact@dakolas.com?subject=${encodeURIComponent("iPhone battery wholesale inquiry")}&body=${encodeURIComponent(body)}`;
-    byId("formStatus").textContent = "Opening your email client with the inquiry details.";
-    window.location.href = mailto;
+  byId("alipayCheckout").addEventListener("click", () => {
+    openWhatsApp(cartWhatsAppMessage("Alipay payment"));
   });
 
   window.addEventListener("load", () => renderCart());
