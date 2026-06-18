@@ -9,7 +9,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "5-15 days",
-    "image": "assets/products/real/7g.jpg"
+    "image": "assets/products/real/7g.jpg?v=20260618upright"
   },
   {
     "id": "original-cell-7p",
@@ -21,7 +21,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "5-15 days",
-    "image": "assets/products/real/7p.jpg"
+    "image": "assets/products/real/7p.jpg?v=20260618upright"
   },
   {
     "id": "original-cell-8g",
@@ -105,7 +105,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "5-15 days",
-    "image": "assets/products/real/se.jpg"
+    "image": "assets/products/real/se.jpg?v=20260618upright"
   },
   {
     "id": "original-cell-se2022",
@@ -117,7 +117,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "5-15 days",
-    "image": "assets/products/real/se.jpg"
+    "image": "assets/products/real/se.jpg?v=20260618upright"
   },
   {
     "id": "original-cell-11",
@@ -225,7 +225,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "5-15 days",
-    "image": "assets/products/real/13pro.jpg"
+    "image": "assets/products/real/13pro.jpg?v=20260618upright"
   },
   {
     "id": "original-cell-13promax",
@@ -333,7 +333,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "5-15 days",
-    "image": "assets/products/real/15promax.jpg"
+    "image": "assets/products/real/15promax.jpg?v=20260618upright"
   },
   {
     "id": "diagnostic-12-12-pro",
@@ -405,7 +405,7 @@
     "badge": "Diagnostic Original Cell",
     "moq": 20,
     "leadTime": "5-15 days",
-    "image": "assets/products/real/13pro.jpg"
+    "image": "assets/products/real/13pro.jpg?v=20260618upright"
   },
   {
     "id": "diagnostic-13promax",
@@ -513,7 +513,7 @@
     "badge": "Diagnostic Original Cell",
     "moq": 20,
     "leadTime": "5-15 days",
-    "image": "assets/products/real/15promax.jpg"
+    "image": "assets/products/real/15promax.jpg?v=20260618upright"
   },
   {
     "id": "pulled-original-16",
