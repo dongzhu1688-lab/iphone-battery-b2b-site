@@ -33,7 +33,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "5-15 days",
-    "image": "assets/products/original-cell-8g.svg"
+    "image": "assets/products/real/8g.jpg?v=20260618real"
   },
   {
     "id": "original-cell-8p",
@@ -57,7 +57,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "5-15 days",
-    "image": "assets/products/original-cell-x.svg"
+    "image": "assets/products/real/x.jpg?v=20260618real"
   },
   {
     "id": "original-cell-xr",
@@ -69,7 +69,7 @@
     "badge": "Original Cell",
     "moq": 20,
     "leadTime": "5-15 days",
-    "image": "assets/products/original-cell-xr.svg"
+    "image": "assets/products/real/xr.jpg?v=20260618real"
   },
   {
     "id": "original-cell-xs",
