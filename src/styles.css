@@ -302,8 +302,9 @@ textarea {
 .hero-media img {
   display: block;
   width: 100%;
-  aspect-ratio: 1.12;
+  aspect-ratio: 1.55;
   object-fit: cover;
+  object-position: center;
 }
 
 .quality-strip {
@@ -1078,6 +1079,6 @@ h2 {
   }
 
   .hero-media img {
-    aspect-ratio: 0.92;
+    aspect-ratio: 1.15;
   }
 }
