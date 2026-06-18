@@ -491,7 +491,9 @@ h2 {
   display: block;
   width: 100%;
   aspect-ratio: 1.42;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
+  background: #f6fafb;
 }
 
 .product-info {
