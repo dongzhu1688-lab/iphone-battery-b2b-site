@@ -23,6 +23,7 @@ const money = (value) => `$${value.toFixed(2)}`;
 const WHATSAPP_NUMBER = "8613558057005";
 
 const byId = (id) => document.getElementById(id);
+const productUrl = (product) => `/products/${product.id}/`;
 const whatsappUrl = (message) => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 const openWhatsApp = (message) => window.open(whatsappUrl(message), "_blank", "noopener");
 
@@ -51,7 +52,7 @@ function renderNav() {
     const seriesMarkup = seriesForProducts(products).map((series) => {
       const links = products
         .filter((product) => product.series === series)
-        .map((product) => `<a href="#catalog" data-jump="${product.categorySlug}" data-series="${product.series}" data-model="${product.model}">${product.model}</a>`)
+        .map((product) => `<a href="${productUrl(product)}">${product.model}</a>`)
         .join("");
       return `<div class="mega-series"><strong>${series}</strong>${links}</div>`;
     }).join("");
@@ -132,6 +133,7 @@ function renderProducts() {
         <div class="price-row">
           <span class="price">${money(product.price)}</span>
           <div class="product-actions">
+            <a class="detail-link" href="${productUrl(product)}">View details</a>
             <button class="small-button" type="button" data-add="${product.id}">Add to cart</button>
             <button class="whatsapp-mini" type="button" data-whatsapp-product="${product.id}">WhatsApp</button>
           </div>
