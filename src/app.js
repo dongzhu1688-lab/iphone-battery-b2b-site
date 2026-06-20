@@ -1,6 +1,6 @@
 const categories = [
-  { slug: "original-cell", label: "iPhone battery(original cell)" },
-  { slug: "diagnostic", label: "iPhone battery(original cell) diagnostic" },
+  { slug: "original-cell", label: "iPhone Battery (OEM Material)" },
+  { slug: "diagnostic", label: "iPhone Battery (OEM Material) Diagnostics" },
   { slug: "pulled-original", label: "iPhone battery(pulled original)" },
 ];
 
@@ -26,6 +26,7 @@ const byId = (id) => document.getElementById(id);
 const productUrl = (product) => `/products/${product.id}/`;
 const whatsappUrl = (message) => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 const openWhatsApp = (message) => window.open(whatsappUrl(message), "_blank", "noopener");
+const shortCategoryLabel = (label) => label.replace(/^iPhone Battery\s*/i, "").replace(/^iPhone battery\s*/i, "");
 
 async function boot() {
   state.products = await fetch("src/products.json").then((response) => response.json());
@@ -83,7 +84,7 @@ function renderCategoryCards() {
 function renderFilters() {
   byId("categoryFilters").innerHTML = [
     `<button class="chip active" type="button" data-cat-filter="all">All</button>`,
-    ...categories.map((category) => `<button class="chip" type="button" data-cat-filter="${category.slug}">${category.label.replace("iPhone battery", "")}</button>`),
+    ...categories.map((category) => `<button class="chip" type="button" data-cat-filter="${category.slug}">${shortCategoryLabel(category.label)}</button>`),
   ].join("");
   updateSeriesFilters();
 }
