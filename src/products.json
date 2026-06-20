@@ -7,7 +7,7 @@
     "model": "7G",
     "price": 4.23,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/7g.jpg?v=20260618upright"
   },
@@ -19,7 +19,7 @@
     "model": "7P",
     "price": 5.08,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/7p.jpg?v=20260618upright"
   },
@@ -31,7 +31,7 @@
     "model": "8G",
     "price": 4.74,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/8g.jpg?v=20260618real"
   },
@@ -43,7 +43,7 @@
     "model": "8P",
     "price": 5.58,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/8p.jpg?v=20260618upright2"
   },
@@ -55,7 +55,7 @@
     "model": "X",
     "price": 7.11,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/x.jpg?v=20260618real"
   },
@@ -67,7 +67,7 @@
     "model": "XR",
     "price": 7.28,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/xr.jpg?v=20260618real"
   },
@@ -79,7 +79,7 @@
     "model": "XS",
     "price": 8.12,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/xs.jpg"
   },
@@ -91,7 +91,7 @@
     "model": "XS Max",
     "price": 8.12,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/xsmax.jpg"
   },
@@ -103,7 +103,7 @@
     "model": "SE2020",
     "price": 4.74,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/se.jpg?v=20260618upright"
   },
@@ -115,7 +115,7 @@
     "model": "SE2022",
     "price": 5.42,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/se.jpg?v=20260618upright"
   },
@@ -127,7 +127,7 @@
     "model": "11",
     "price": 8.12,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/11.jpg"
   },
@@ -139,7 +139,7 @@
     "model": "11Pro",
     "price": 8.97,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/11pro.jpg"
   },
@@ -151,7 +151,7 @@
     "model": "11ProMax",
     "price": 8.97,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/11promax.jpg"
   },
@@ -163,7 +163,7 @@
     "model": "12mini",
     "price": 7.78,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/12mini.jpg"
   },
@@ -175,7 +175,7 @@
     "model": "12ProMax",
     "price": 8.46,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/12promax.jpg"
   },
@@ -187,7 +187,7 @@
     "model": "12 / 12 Pro",
     "price": 7.78,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/12.jpg"
   },
@@ -199,7 +199,7 @@
     "model": "13mini",
     "price": 8.46,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/13mini.jpg"
   },
@@ -211,7 +211,7 @@
     "model": "13",
     "price": 8.46,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/13.jpg"
   },
@@ -223,7 +223,7 @@
     "model": "13Pro",
     "price": 8.8,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/13pro.jpg?v=20260618upright"
   },
@@ -235,7 +235,7 @@
     "model": "13ProMax",
     "price": 9.31,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/13promax.jpg"
   },
@@ -247,7 +247,7 @@
     "model": "14",
     "price": 9.31,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/14.jpg"
   },
@@ -259,7 +259,7 @@
     "model": "14Plus",
     "price": 9.82,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/14plus.jpg"
   },
@@ -271,7 +271,7 @@
     "model": "14Pro",
     "price": 9.82,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/14pro.jpg"
   },
@@ -283,7 +283,7 @@
     "model": "14ProMax",
     "price": 10.15,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/14promax.jpg"
   },
@@ -295,7 +295,7 @@
     "model": "15",
     "price": 9.31,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/15.jpg"
   },
@@ -307,7 +307,7 @@
     "model": "15Plus",
     "price": 10.15,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/15plus.jpg"
   },
@@ -319,7 +319,7 @@
     "model": "15Pro",
     "price": 10.15,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/15pro.jpg"
   },
@@ -331,7 +331,7 @@
     "model": "15ProMax",
     "price": 10.66,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/15promax.jpg?v=20260618upright"
   },
@@ -343,7 +343,7 @@
     "model": "16",
     "price": 9.82,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/16.jpg"
   },
@@ -355,7 +355,7 @@
     "model": "16Plus",
     "price": 10.49,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/16plus.jpg"
   },
@@ -367,7 +367,7 @@
     "model": "16Pro",
     "price": 10.49,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/16pro.jpg"
   },
@@ -379,7 +379,7 @@
     "model": "16ProMax",
     "price": 11.0,
     "badge": "OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/16promax.jpg"
   },
@@ -391,7 +391,7 @@
     "model": "12mini",
     "price": 8.46,
     "badge": "Diagnostic OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/12mini.jpg"
   },
@@ -403,7 +403,7 @@
     "model": "12ProMax",
     "price": 9.82,
     "badge": "Diagnostic OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/12promax.jpg"
   },
@@ -415,7 +415,7 @@
     "model": "12 / 12 Pro",
     "price": 9.31,
     "badge": "Diagnostic OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/12.jpg"
   },
@@ -427,7 +427,7 @@
     "model": "13mini",
     "price": 9.31,
     "badge": "Diagnostic OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/13mini.jpg"
   },
@@ -439,7 +439,7 @@
     "model": "13",
     "price": 9.31,
     "badge": "Diagnostic OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/13.jpg"
   },
@@ -451,7 +451,7 @@
     "model": "13Pro",
     "price": 9.82,
     "badge": "Diagnostic OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/13pro.jpg?v=20260618upright"
   },
@@ -463,7 +463,7 @@
     "model": "13ProMax",
     "price": 10.66,
     "badge": "Diagnostic OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/13promax.jpg"
   },
@@ -475,7 +475,7 @@
     "model": "14",
     "price": 10.15,
     "badge": "Diagnostic OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/14.jpg"
   },
@@ -487,7 +487,7 @@
     "model": "14Plus",
     "price": 11.0,
     "badge": "Diagnostic OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/14plus.jpg"
   },
@@ -499,7 +499,7 @@
     "model": "14Pro",
     "price": 11.0,
     "badge": "Diagnostic OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/14pro.jpg"
   },
@@ -511,7 +511,7 @@
     "model": "14ProMax",
     "price": 11.85,
     "badge": "Diagnostic OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/14promax.jpg"
   },
@@ -523,7 +523,7 @@
     "model": "15",
     "price": 11.0,
     "badge": "Diagnostic OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/15.jpg"
   },
@@ -535,7 +535,7 @@
     "model": "15Plus",
     "price": 11.85,
     "badge": "Diagnostic OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/15plus.jpg"
   },
@@ -547,7 +547,7 @@
     "model": "15Pro",
     "price": 11.85,
     "badge": "Diagnostic OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/15pro.jpg"
   },
@@ -559,7 +559,7 @@
     "model": "15ProMax",
     "price": 12.69,
     "badge": "Diagnostic OEM Material",
-    "moq": 20,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/15promax.jpg?v=20260618upright"
   },
@@ -571,7 +571,7 @@
     "model": "16",
     "price": 29.0,
     "badge": "Pulled Original",
-    "moq": 10,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/16.jpg"
   },
@@ -583,7 +583,7 @@
     "model": "16Plus",
     "price": 34.0,
     "badge": "Pulled Original",
-    "moq": 10,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/16plus.jpg"
   },
@@ -595,7 +595,7 @@
     "model": "16Pro",
     "price": 38.0,
     "badge": "Pulled Original",
-    "moq": 10,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/16pro.jpg"
   },
@@ -607,7 +607,7 @@
     "model": "16ProMax",
     "price": 38.0,
     "badge": "Pulled Original",
-    "moq": 10,
+    "moq": 5,
     "leadTime": "5-15 days",
     "image": "assets/products/real/16promax.jpg"
   }
